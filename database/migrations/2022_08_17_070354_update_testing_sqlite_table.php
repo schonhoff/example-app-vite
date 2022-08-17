@@ -18,14 +18,4 @@ return new class extends Migration
             $table->dropColumn(['created_by']);
         });
     }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        //
-    }
 };
